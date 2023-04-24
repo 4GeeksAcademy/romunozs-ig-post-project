@@ -1,0 +1,36 @@
+body {
+    background: #000000;
+    margin: 0;
+    font-family: Roboto;
+  }
+  div {
+    box-sizing: border-box;
+  }
+  .post {
+    background: white;
+    margin-top: 10px;
+  }
+  .container {
+    width: 600px;
+    margin: auto
+  }
+  .container img {
+    width: 100% 
+  }
+  
+  .post h2, p {
+    padding: 10px;
+    margin: 0px;
+  
+  }
+  .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+  }
+  .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+  }
