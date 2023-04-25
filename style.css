@@ -1,36 +1,75 @@
 body {
     background: #000000;
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
   }
-  div {
+div {
     box-sizing: border-box;
   }
-  .post {
+.post {
     background: white;
     margin-top: 10px;
   }
-  .container {
-    width: 600px;
+.container {
+    width: 500px;
     margin: auto
   }
-  .container img {
-    width: 100% 
+.container img {
+    width: 100%
   }
   
-  .post h2, p {
+.post h3, p {
     padding: 10px;
     margin: 0px;
   
   }
-  .post-header div:first-child {
+.post-header div:first-child {
     display: inline-block;
     width: 80%;
   }
-  .post-header div:last-child {
+.post-header div:last-child {
     display: inline-block;
     width: 20%;
     text-align: right;
-    padding: 10px;
-    color: gray;
+    padding: 5px;
   }
+
+.post .likes {
+    padding: 10px;
+    margin: 0px;
+  }
+
+svg {
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.bookmark {
+  float: right;
+  margin-right: 10px;
+}
+
+.dots {
+  float: right;
+}
+
+.html-rodrigo p {
+  padding-top: 0px;
+}
+
+.logo-nombre {
+  display: flex;
+}
+
+.html-rodrigo h3 {
+  padding-bottom: 2px;
+  padding-top: 0px;
+}
+
+.html-logo {
+  width: 25px;
+  height: 25px;
+  padding-bottom: 0px;
+}
