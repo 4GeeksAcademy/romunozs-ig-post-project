@@ -19,13 +19,14 @@ div {
   }
   
 .post h3, p {
-    padding: 10px;
     margin: 0px;
+    text-align: left;
   
   }
 .post-header div:first-child {
-    display: inline-block;
+    display: inline;
     width: 80%;
+    text-align: center;
   }
 .post-header div:last-child {
     display: inline-block;
@@ -55,12 +56,8 @@ svg {
   float: right;
 }
 
-.html-rodrigo p {
-  padding-top: 0px;
-}
-
 .logo-nombre {
-  display: flex;
+  align-items: top;
 }
 
 .html-rodrigo h3 {
@@ -71,5 +68,18 @@ svg {
 .html-logo {
   width: 25px;
   height: 25px;
-  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.html-rodrigo {
+  display: inline-block;
+}
+
+.caption {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+.post-header .logo-nombre .html-logo svg{
+  padding-bottom: 5px;
 }
